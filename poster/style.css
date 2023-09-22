@@ -1,0 +1,26 @@
+body {
+
+}
+
+main {
+	width: 550px;
+	height: 750px;
+	margin: auto;
+	background-color: rgb(180, 150, 120);
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.box1 {
+	font-size: 72pt;
+	font-family: serif;
+	font-weight: bold;
+	color: red;
+}
+
+.box2 {
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 144pt;
+	color: red;
+}

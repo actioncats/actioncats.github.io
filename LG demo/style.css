@@ -1,0 +1,101 @@
+@font-face{
+	font-family: 'LinearGallifreyan';
+	src: url('fonts/LinearGallifreyan-Regular.otf') 
+		format('opentype');
+}
+
+body{
+	background-color: paleturquoise;
+	margin: 0px;
+	display: grid;
+}
+
+h1, h2 {
+	color: white;
+	font-family: Helvetica;
+}
+
+h1 {
+	font-size: 24pt;
+}
+
+h2 {
+	font-size: 18pt;
+}
+
+textarea {
+	display: block;
+	font-family: serif;
+	font-size: 12pt;
+	min-width: 100%;
+	max-width: 100%;
+	min-height: 50px;
+	margin-bottom: 30px;
+}
+
+.header {
+	top: 0;
+	position: fixed;
+	width: 100%;
+	height: 80px;
+	background-color: black;
+	display: flex;
+  	flex-wrap: wrap;
+}
+
+#top-left {
+	width: 300px;
+}
+
+.header-box {
+	padding: 0px 30px;
+}
+
+.sidebar {
+	top: 80px;
+	height: 100%;
+	width: 300px;
+	position: fixed;
+	background-color: rgb(255,255,255, 0.5);
+	padding: 30px;
+	font-family: Helvetica;
+}
+
+.slider {
+	display: block;
+	width: 100%;
+	padding: 10px 0px;
+	margin-bottom: 30px;
+}
+
+.slider-label {
+	font-size: 1.2rem;
+  	font-weight: bold;
+  	line-height: 1.1;
+}
+
+.checkbox-label {
+	margin-top: 30px;
+ 	font-size: 1.2rem;
+  	font-weight: bold;
+  	line-height: 1.1;
+  	display: grid;
+  	grid-template-columns: 1em auto;
+  	gap: 0.5em;
+}
+
+.checkbox {
+	
+}
+
+.demo-container {
+	margin-left: 300px;
+	padding: 50px;
+}
+
+#demo {
+	font-family: LinearGallifreyan;
+	font-variant-ligatures: discretionary-ligatures;
+	font-kerning: auto;
+	font-size: 36pt;
+}

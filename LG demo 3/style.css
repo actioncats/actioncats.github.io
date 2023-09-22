@@ -1,0 +1,103 @@
+@font-face{
+	font-family: 'LinearGallifreyan';
+	src: url('fonts/LinearGallifreyan-Regular.otf') 
+		format('opentype');
+}
+
+body{
+	background-color: paleturquoise;
+	margin: 0px;
+}
+
+main {
+	margin-top: 100px;
+	display: grid;
+	grid-template-columns: 300px auto
+}
+
+h1, h2 {
+	color: white;
+	font-family: Helvetica;
+}
+
+h1 {
+	padding-left: 30px;
+	padding-right: 15px;
+}
+
+h2 {
+	padding: 0px 15px;
+	position: relative;
+}
+
+h3 {
+	display: inline;
+}
+
+p {
+	margin-top: 0px;
+}
+
+textarea {
+	display: block;
+	font-family: serif;
+	font-size: 12pt;
+	width: 100%;
+	resize: vertical;
+	min-height: 50px;
+	margin-bottom: 30px;
+}
+
+.header {
+	width: 100%;
+	display: grid;
+	grid-template-columns: 300px repeat(3, auto 1fr);
+	background-color: black;
+	position: fixed;
+}
+
+.sidebar {
+	background-color: rgb(255,255,255, 0.3);
+	padding: 30px;
+}
+
+.slider {
+	display: block;
+	width: 100%;
+	padding: 10px 0px;
+	margin-bottom: 30px;
+}
+
+.slider-label {
+	font-size: 1.2rem;
+  	font-weight: bold;
+  	line-height: 1.1;
+}
+
+.checklist-item {
+	margin-top: 30px;
+  	line-height: 1.1;
+  	display: grid;
+  	grid-template-columns: auto auto;
+  	gap: 0.5em;
+}
+
+.box {
+
+}
+
+.checkbox {
+
+}
+
+.caption {
+	margin-left: 20px;
+}
+
+.demo {
+	padding: 30px;
+	font-family: LinearGallifreyan;
+	font-variant-ligatures: discretionary-ligatures;
+	font-kerning: auto;
+	font-size: 36pt;
+}
